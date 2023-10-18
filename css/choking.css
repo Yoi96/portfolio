@@ -1,0 +1,162 @@
+.mainbody_img
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_07.jpg") no-repeat;
+	 background-position: center;
+	 background-size:contain;
+
+}
+
+.mainbody_img2
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_06.jpg") no-repeat;
+	 background-position: center;
+	 background-size:contain;
+
+}
+
+.mainbody_img3
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_08.jpg") no-repeat;
+	 background-position: center;
+	 background-size:contain;
+
+}
+
+.mainbody_img4
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_07.jpg") no-repeat;
+	 background-size:contain;
+	 line-height: 20em;
+
+}
+
+.mainbody_img5
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_06.jpg") no-repeat;
+	 background-size:contain;
+	 line-height: 20em;
+
+}
+
+.mainbody_img6
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_08.jpg") no-repeat;
+	 background-size:contain;
+	 line-height: 20em;
+
+}
+
+.mainbody_pic
+{
+	padding: 1em;
+	margin: 0px auto;
+	padding-top: 2em;
+	max-width: 1024px;
+	height: auto;
+	display: grid;
+	color:#001840;
+	gap: 1em;		
+}
+
+
+
+@media (min-width:360px)
+{
+
+
+	.mainbody_img, .mainbody_img2, .mainbody_img3
+	{
+	   line-height:30em;
+	}
+
+ 
+ 
+ 
+
+	.mainbody_pic
+	{
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-areas: 
+		"mainbody_img mainbody_img2 mainbody_img3";
+
+	}
+
+	.mainbody
+	{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: 
+		"mainbody_text_title mainbody_text" 
+		"mainbody_img4 mainbody_text2"
+		"mainbody_img5 mainbody_text3"
+		"mainbody_img6 mainbody_text4";
+
+	}
+}
+
+
+@media (max-width:540px)
+{
+	.mainbody_img, .mainbody_img2, .mainbody_img3
+	{
+
+	  
+	   line-height:15em;
+
+	}
+
+	.mainbody_img4, .mainbody_img5, .mainbody_img6
+	{
+		line-height: 30em;
+ 
+	}
+
+		.mainbody_pic
+	{
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-areas: 
+		"mainbody_img mainbody_img2 mainbody_img3";
+
+	}
+
+	.mainbody
+	{
+		grid-template-columns: repeat(auto auto);
+		grid-template-areas: 
+		"mainbody_text_title mainbody_text" 
+		"mainbody_img4 mainbody_img4" 
+		"mainbody_text2 mainbody_text2"
+		"mainbody_img5 mainbody_img5" 
+		"mainbody_text3 mainbody_text3"
+		"mainbody_img6 mainbody_img6" 
+		"mainbody_text4 mainbody_text4";
+
+	}
+}
+
+ 
+ 
+ 

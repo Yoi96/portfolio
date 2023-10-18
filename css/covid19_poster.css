@@ -1,0 +1,96 @@
+.mainbody_img
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_05.jpg") no-repeat;
+	 background-position: center;
+	 background-size:contain;
+
+}
+
+.mainbody_img2
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_04.jpg") no-repeat;
+	 background-position: center;
+	 background-size:contain;
+
+}
+
+.mainbody_img3
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/COVID-19.jpg") no-repeat;
+	 background-size:contain;
+	 background-position: center;
+
+}
+
+.mainbody_img4
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/sketches.jpg") no-repeat;
+	 background-size:contain;
+	 line-height:30em;
+
+}
+
+
+ 
+
+
+@media (min-width:360px)
+{
+
+
+	.mainbody_img, .mainbody_img2
+	{
+	   line-height:40em;
+	}
+
+	.mainbody_img3
+	{
+		line-height: 5em;
+	}
+
+ 
+ 
+
+	.mainbody
+	{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: 
+		"mainbody_img mainbody_img2"
+		"mainbody_text_title mainbody_text";
+
+	}
+}
+
+
+@media (max-width:540px)
+{
+	.mainbody_img, .mainbody_img2
+	{
+
+	  
+	   line-height:20em;
+
+	}
+
+ 
+ 
+ 
+ 
+ 
+}

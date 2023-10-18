@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Gabarito&family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Akshar&family=Gabarito&family=Merriweather:wght@700&display=swap');
+
+#projects
+{
+  max-width: 1024px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 1em;
+  height: auto;
+  color: #001840;
+  font-family: 'ABeeZee', sans-serif;
+  margin-top: 2em;
+}
+
+#projects a
+{
+    color: #001840; 
+    text-decoration: none;
+}
+
+#projects a:hover
+{
+    color: #f5c400; 
+    text-decoration: none;
+}
+
+.design
+{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+@media (min-width:370px)
+{
+  .design_text
+{
+    width: 100%;
+    height: 1.5em;
+    line-height:1.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+    #design_img:hover
+  {
+    background-size:cover;
+    scale: 120%;
+    transform: 0.5s;
+    border-radius: 5%;
+  }
+  .projects
+  {
+      width: 100%;
+      height: auto;
+      padding: 0px;
+      margin: 0px;
+      display: grid;
+      text-align: center;
+      gap:2em;
+      grid-template-columns:repeat(3, 1fr);
+  }
+
+  .projects2
+  {
+      width: 100%;
+      height: auto;
+      padding: 0px;
+      margin: 0px;
+      display: grid;
+      text-align: center;
+      gap:2em;
+      grid-template-columns:repeat(2, 1fr);
+      margin-top: 2em;
+  }
+
+    .projects4
+  {
+      width: 100%;
+      height: auto;
+      padding: 0px;
+      margin: 0px;
+      display: grid;
+      text-align: center;
+      gap:2em;
+      grid-template-columns:repeat(4, 1fr);
+      margin-top: 2em;
+  }
+
+
+  #design_img
+  {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height:20em;
+
+
+  }
+
+
+
+
+}
+
+
+@media (max-width:540px)
+{
+  .projects
+  {
+      width: 100%;
+      height: auto;
+      padding: 0px;
+      margin: 0px;
+      display: grid;
+      text-align: center;
+      gap:0.5em;
+      grid-template-columns:repeat(2, 1fr);
+  }
+
+    .projects2
+  {
+      width: 100%;
+      height: auto;
+      padding: 0px;
+      margin: 0px;
+      display: grid;
+      text-align: center;
+      gap:0.5em;
+      grid-template-columns:repeat(2, 1fr);
+  }
+
+      .projects4
+  {
+      width: 100%;
+      height: auto;
+      padding: 0px;
+      margin: 0px;
+      display: grid;
+      text-align: center;
+      gap:0.5em;
+      grid-template-columns:repeat(2, 1fr);
+  }
+
+  .design
+  {
+    margin-top: 1em;
+  }
+
+
+
+  #design_img
+  {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    line-height:20em;
+  }
+
+    .design_text
+{
+    width: 100%;
+    height: 1em;
+    line-height:1em;
+    font-size: 1em;
+    text-align: center;
+}
+
+}
+
+

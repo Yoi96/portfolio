@@ -1,0 +1,49 @@
+.mainbody_img
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/Project3_final_3d.png") no-repeat 0px 0px;
+	 background-position: center;
+	 background-size:contain;
+	 line-height:20em;
+
+}
+
+img
+{
+	text-align:center; 
+	margin: 0px;
+	padding: 0px;
+
+}
+
+@media (min-width:360px)
+{
+	.mainbody
+	{
+		grid-template-columns: auto auto;
+	 
+
+	}
+
+ 
+}
+
+
+@media (max-width:540px)
+{
+ 
+
+	.mainbody
+	{
+		grid-template-columns: auto ;
+	 
+
+	}
+}
+
+ 
+ 
+ 

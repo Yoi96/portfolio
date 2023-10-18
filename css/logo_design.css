@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Akshar&family=Gabarito&family=Merriweather:wght@700&family=Roboto&display=swap');
+
+@media (min-width:360px)
+{
+	.mainbody
+	{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: 
+		"mainbody_logo mainbody_logo" 
+		"mainbody_logo2 mainbody_logo2"
+		"mainbody_logo4 mainbody_logo4" 
+		"mainbody_logo3 mainbody_logo3"
+		"mainbody_text_title mainbody_text"
+		" mainbody_text_img mainbody_text2";
+	}
+
+	
+	.mainbody_logo
+	{
+	   width: 100%;
+	   height: auto;
+	   padding: 0px;
+	   margin: 0px;
+	   background: url("../design_img/design_img_logo3.jpg") no-repeat;
+	   background-size:contain;
+	   background-position: center;
+	   line-height:40em;
+
+	}
+
+	.mainbody_logo2
+	{
+	   width: 100%;
+	   height: auto;
+	   padding: 0px;
+	   margin: 0px;
+	   background: url("../design_img/design_img_logo2.jpg") no-repeat;
+	   background-size:contain;
+	   background-position: center;
+	   line-height:40em;
+
+	}
+
+
+	.mainbody_logo3
+	{
+	   width: 100%;
+	   height: auto;
+	   padding: 0px;
+	   margin: 0px;
+	   background: url("../design_img/20231010_100430.jpg") no-repeat;
+	   background-size:contain;
+	   background-position: center;
+	   line-height:40em;
+
+	}
+
+	.mainbody_logo4
+	{
+	   width: 100%;
+	   height: auto;
+	   padding: 0px;
+	   margin: 0px;
+	   background: url("../design_img/20231010_100437.jpg") no-repeat;
+	   background-size:contain;
+	   background-position: center;
+	   line-height:40em;
+
+	}
+}
+
+@media (max-width:540px)
+{
+		.mainbody_logo
+	{
+	   width: 100%;
+	   height: auto;
+	   padding: 0px;
+	   margin: 0px;
+	   background: url("../design_img/design_img_logo3.jpg") no-repeat;
+	   background-size:contain;
+	   background-position: center;
+	   line-height:20em;
+
+	}
+
+	.mainbody_logo2
+	{
+	   width: 100%;
+	   height: auto;
+	   padding: 0px;
+	   margin: 0px;
+	   background: url("../design_img/design_img_logo2.jpg") no-repeat;
+	   background-size:contain;
+	   background-position: center;
+	   line-height:20em;
+
+	}
+
+		.mainbody_logo3
+	{
+	   width: 100%;
+	   height: auto;
+	   padding: 0px;
+	   margin: 0px;
+	   background: url("../design_img/20231010_100430.jpg") no-repeat;
+	   background-size:contain;
+	   background-position: center;
+	   line-height:20em;
+
+	}
+
+	.mainbody_logo4
+	{
+	   width: 100%;
+	   height: auto;
+	   padding: 0px;
+	   margin: 0px;
+	   background: url("../design_img/20231010_100437.jpg") no-repeat;
+	   background-size:contain;
+	   background-position: center;
+	   line-height:20em;
+
+	}
+
+	.mainbody
+	{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: 
+		"mainbody_logo mainbody_logo" 
+		"mainbody_logo2 mainbody_logo2"
+		"mainbody_logo4 mainbody_logo4" 
+		"mainbody_logo3 mainbody_logo3"
+		"mainbody_text_title mainbody_text_title" 
+		"mainbody_text mainbody_text"
+		"mainbody_text_img mainbody_text_img"
+		"mainbody_text2 mainbody_text2";
+	}
+
+}

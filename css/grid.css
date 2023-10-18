@@ -1,0 +1,195 @@
+
+.header
+{
+	grid-area:header;
+
+}
+
+.logo
+{
+	grid-area:logo;
+}
+
+.home
+{
+	grid-area:home;
+}
+
+.nav1
+{
+	grid-area:nav1;
+}
+
+.nav2
+{
+	grid-area:nav2;
+}
+
+.nav3
+{
+	grid-area:nav3;
+}
+
+.blank
+{
+	grid-area:blank;
+}
+ 
+
+.footer_title
+{
+  grid-area:footer_title;
+}
+
+.footer_title_left
+{
+  grid-area:footer_title_left;
+}
+
+.footer_title_mid
+{
+  grid-area:footer_title_mid;
+}
+
+.footer_title_right
+{
+  grid-area:footer_title_right;
+}
+
+
+.mainbody_logo
+{
+  grid-area:mainbody_logo;
+}
+
+.mainbody_logo2
+{
+  grid-area:mainbody_logo2;
+}
+
+.mainbody_logo3
+{
+  grid-area:mainbody_logo3;
+}
+
+.mainbody_logo4
+{
+  grid-area:mainbody_logo4;
+}
+
+.mainbody_text_title
+{
+  grid-area:mainbody_text_title;
+}
+
+
+
+.mainbody_text_img
+{
+  grid-area:mainbody_text_img;
+}
+
+.mainbody_text
+{
+  grid-area:mainbody_text;
+}
+
+
+.poster1
+{
+	grid-area:poster1;
+}
+
+.poster2
+{
+	grid-area:poster2;
+}
+
+.poster3
+{
+	grid-area:poster3;
+}
+
+.mainbody_text_img2
+{
+  grid-area:mainbody_text_img2;
+}
+
+.mainbody_text2
+{
+  grid-area:mainbody_text2;
+}
+
+.mainbody_text_img3
+{
+  grid-area:mainbody_text_img3;
+}
+
+.mainbody_text3
+{
+  grid-area:mainbody_text3;
+}
+
+ 
+.mainbody_text4
+{
+  grid-area:mainbody_text4;
+}
+
+
+.mainbody_img
+{
+  grid-area:mainbody_img;
+}
+
+.mainbody_img2
+{
+  grid-area:mainbody_img2;
+}
+
+.mainbody_img3
+{
+  grid-area:mainbody_img3;
+}
+
+.mainbody_img4
+{
+  grid-area:mainbody_img4;
+}
+
+.mainbody_img5
+{
+  grid-area:mainbody_img5;
+}
+
+.mainbody_img6
+{
+  grid-area:mainbody_img6;
+}
+
+.mainbody_text
+{
+  grid-area:mainbody_text;
+}
+
+.mainbody_text2
+{
+  grid-area:mainbody_text2;
+}
+
+.mainbody_text3
+{
+  grid-area:mainbody_text3;
+}
+
+.mainbody_text4
+{
+  grid-area:mainbody_text4;
+}
+
+.mainbody_text5
+{
+  grid-area:mainbody_text6;
+}
+
+ 

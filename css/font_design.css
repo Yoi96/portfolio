@@ -1,0 +1,146 @@
+.poster1
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_01.jpg") no-repeat;
+	 background-position: center;
+
+}
+
+.poster2
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_02.jpg") no-repeat;
+	 background-position: center;
+
+}
+
+.poster3
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_03.jpg") no-repeat;
+	 background-position: center;
+
+}
+
+
+
+
+
+@media (min-width:360px)
+{
+
+
+	.poster1
+	{
+
+	   background-size:contain;
+	   line-height:40em;
+
+	}
+		.poster2
+	{
+
+	   background-size:contain;
+	   line-height:40em;
+
+	}
+
+	.poster3
+	{
+
+	   background-size:contain;
+	   line-height:40em;
+
+	}
+
+		.mainbody
+	{
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-areas: 
+		"poster1 poster2 poster3"
+		"mainbody_text_title mainbody_text mainbody_text"
+		"mainbody_text_img mainbody_text2 mainbody_text2"
+		"mainbody_text_img2 mainbody_text3  mainbody_text3 "
+		"mainbody_text_img3 mainbody_text4  mainbody_text4 ";
+
+
+	}
+}
+
+
+@media (max-width:540px)
+{
+	.poster1
+	{
+
+	   background-size:contain;
+	   line-height:20em;
+
+	}
+
+		.poster2
+	{
+	    
+	  
+	   background-size:contain;
+	   line-height:20em;
+
+	}
+
+		.poster3
+	{
+	    
+	  
+	   background-size:contain;
+	   line-height:20em;
+
+	}
+
+
+ 
+}
+
+.mainbody_text_img
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_01.jpg") no-repeat;
+	 background-size:contain;
+	 line-height: 20em;
+
+}
+
+.mainbody_text_img2
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_02.jpg") no-repeat;
+	 background-size:contain;
+	 line-height: 20em;
+
+}
+
+.mainbody_text_img3
+{
+	 width: 100%;
+	 height: auto;
+	 padding: 0px;
+	 margin: 0px;
+	 background: url("../design_img/design_img_03.jpg") no-repeat;
+	 background-size:contain;
+	 line-height: 20em;
+
+}
