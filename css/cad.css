@@ -1,4 +1,4 @@
- 
+
 
 img
 {
@@ -12,7 +12,7 @@ img
 {
 	.mainbody
 	{
-		grid-template-columns: auto auto;
+		grid-template-columns: auto;
 	 
 
 	}
