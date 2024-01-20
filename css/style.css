@@ -37,6 +37,18 @@ a:hover
 	text-decoration: underline;
 
 }
+
+ 
+
+#logo_img a:hover
+{
+	text-decoration: none;
+
+}
+
+
+
+
 #blue_bg
 {
 	width: 100%;
@@ -81,18 +93,18 @@ a:hover
 
 @media (min-width:360px)
 {
-	.logo
-{
-	padding: 0px;
-	margin: 0px;
-	line-height: 3em;
-	height: auto;
-	background: url("../images/xiaoyi_logo.png") no-repeat;
-	background-position:center;
-	background-size:contain;
-	display: block;
-	text-align: left;
-}
+.logo
+	{
+		padding: 0px;
+		margin: 0px;
+		line-height: 3em;
+		height: auto;
+		background: url("../images/xiaoyi_logo.png") no-repeat;
+		background-position:center;
+		background-size:contain;
+		display: block;
+		text-align: left;
+	}
 
  
 	#header
