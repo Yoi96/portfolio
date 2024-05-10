@@ -27,7 +27,7 @@
 
 		<div class="contact_me" id="contact_me">  
    <div class="contents_title"> <span>CONTACT ME</span></div>
-  <form action="mailto:xiaoyiliu96xyl@gmail.com">
+  <form action="process_form.php" method="post">
 
     <label for="fname">First Name:</label>
     <input type="text" class="textbox" name="firstname" placeholder="Your name..">
@@ -36,14 +36,16 @@
     <input type="text" class="textbox" name="lastname" placeholder="Your last name..">
 
     <label for="email">Email:</label>
-    <input type="text" class="textbox" id="emial" name="email" placeholder="Your Email address">
+    <input type="text" class="textbox" id="email" name="email" placeholder="Your Email address">
 
-    <label for="subject">Massage:</label>
+    <label for="subject">Message:</label>
     <textarea id="subject" class="textbox" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-   <div id="sumbit_button"><button>Sumbit</button></div>
+    <div id="submit_button"><button type="submit">Submit</button></div>
 
-  </form>
+</form>
+
+
 
 </div>
 
