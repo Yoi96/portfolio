@@ -1,14 +1,5 @@
-ul
-{
-	padding: 0px;
-	margin: 0px;
-	list-style: none;
-}
 
-li
-{
-	line-height: 3em;
-}
+
 
 a
 {
@@ -16,17 +7,6 @@ a
 	text-decoration: none;
 	
 }
-
-iframe
-{
-	border: none;
-	overflow: hidden;
-}
-
-
-body{background: #37282F;}
-
-
 @font-face {
     font-family: 'fonts';
     src: url('fonts/brankovic.ttf'),
@@ -96,7 +76,7 @@ body{background: #37282F;}
 
 .nav a
 {
-	color: white;
+	color: black;
 }
 
 .nav a:hover
@@ -139,7 +119,7 @@ body{background: #37282F;}
 
 #logo:hover
 {
-	background: url("../images/home_images/logo_white.png") no-repeat;
+	background: url("../images/home_images/logo_black.png") no-repeat;
 	background-position: left;
     background-size: contain;
 }
@@ -160,6 +140,13 @@ body{background: #37282F;}
 
 }
 
+iframe
+{
+	border: none;
+	overflow: hidden;
+}
 
-
- 
+#project
+{
+	margin-top: 5em;
+}
