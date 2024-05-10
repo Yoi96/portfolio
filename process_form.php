@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Oops! Something went wrong, please try again later.";
     }
 } else {
-    // 如果不是通过POST请求提交的表单，则重定向到错误页面或其他适当的操作
+
     header("Location: error.php");
     exit;
 }
