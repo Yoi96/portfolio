@@ -333,7 +333,7 @@ body{font-family:'Helvetica';}
 	width: 100%;
 	height: auto;
 	background: url("../images/atypi2019toyko_images/20240404_135058.png") no-repeat;
-	background-size:cover;
+	background-size:contain;
 	background-position: center;
 	line-height:15em;
 }
