@@ -326,3 +326,40 @@ body{font-family:'Helvetica';}
 	margin: 0px auto;
 }
 
+
+
+.product_detail_right_01
+{
+	width: 100%;
+	height: auto;
+	background: url("../images/atypi2019toyko_images/20240404_135058.png") no-repeat;
+	background-size:cover;
+	background-position: center;
+	line-height:15em;
+}
+
+.product_detail_right_02
+{
+	width: 100%;
+	height: auto;
+	background: url("../images/atypi2019toyko_images/20240404_135138.png") no-repeat;
+	background-size:contain;
+	background-position: center;
+	line-height:10em;
+}
+
+.product_detail_text
+{
+	max-width: 1024px;
+	height: auto;
+	margin: 0px auto;
+}
+
+.product_detail_right
+{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
