@@ -68,6 +68,7 @@ button
 	border-radius: 5%;
 	font-size: 1.2em;
 	line-height: 2em;
+	text-align: center;
 }
 
 button:hover

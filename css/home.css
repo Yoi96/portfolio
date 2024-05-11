@@ -3,13 +3,13 @@
 #banner
 {
 	max-width:1024px;
-    height: auto;
+  height: auto;
 	background: url("../images/home_images/banner.png") no-repeat;
 	background-position: center;
-    background-size:contain;
-    padding: 0px;
-    margin-top:2em;
-    margin-bottom:5em;
+  background-size:contain;
+  padding: 0px;
+  margin-top:2em;
+  margin-bottom:5em;
 }
 
 .banner

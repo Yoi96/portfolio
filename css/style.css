@@ -27,12 +27,14 @@ iframe
 body{background: #37282F;}
 
 
-@font-face {
+@font-face 
+{
     font-family: 'fonts';
     src: url('fonts/brankovic.ttf'),
          url('fonts/Cataclysmic.ttf'),
          url('fonts/Helvetica.ttf'),
-         url('fonts/Bodoni.ttf') ;  
+         url('fonts/Bodoni.ttf'),
+         url('fonts/atlas.TTF') ; 
 }
 
 #wrap
