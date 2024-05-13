@@ -3,10 +3,11 @@
 { 
 	width:100%;
 	height: auto;
-	background: url("../images/coffee_images/coffeeposter.jpg") no-repeat;
+	/*background: url("../images/coffee_images/coffeeposter.jpg") no-repeat;
 	background-size:cover;
-	background-position:top;
+	background-position:top;*/
 	text-align: center;
+	background: black;
 }
 
  d

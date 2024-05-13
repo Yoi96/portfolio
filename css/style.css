@@ -1,3 +1,10 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
 ul
 {
 	padding: 0px;
@@ -7,7 +14,7 @@ ul
 
 li
 {
-	line-height: 3em;
+	line-height: 2em;
 }
 
 a
@@ -39,8 +46,6 @@ iframe
 
 #wrap
 {
-	margin: 0px;
-	padding: 0px;
 	width: 100%;
 	height: auto;
 	font-family: 'fonts', sans-serif;
@@ -51,49 +56,41 @@ iframe
 	max-width: 1024px;
 	height: auto;
 	margin: 0px auto;
-	padding: 1em;
-	padding-bottom: 0px;
+	padding:1em;
 }
 
 /**Header**/
 
 #header
 {
-	width: 100%;
-	height: auto;
+
 	margin: 0px;
 	padding: 0px;
 }
 
 #navs
 {
-	width: 100%;
-	height:auto;
+
 	margin: 0px;
-	padding: 0px;
+	padding:1em;
 	line-height: 3em;
-	color: white;
-	text-align:center;
+	text-align: right;
+
 }
 
 #home
 {
 	color: #FFB439;
 }
-
-.logo
-{
-	grid-area: logo;
-}
+ 
 
 .navs
 {
 	display: grid;
-	grid-template-columns: 3fr 1fr 1fr 1fr;
-	grid-column-gap: 2em;
-	grid-template-areas:'logo nav nav nav' ;
-
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1em;
 }
+
 
 
 .nav a
@@ -131,20 +128,23 @@ iframe
 
 #logo
 {
-	width:4em;
-    height:3em;
+	width:100%;
+    height:auto;
     display: block;
     padding: 0px;
     margin: 0px;
-    line-height:3em;  
 }
 
-#logo:hover
+.logo:hover
 {
 	background: url("../images/home_images/logo_white.png") no-repeat;
 	background-position: left;
     background-size: contain;
 }
+
+
+
+
 
 #footer
 {
@@ -164,4 +164,15 @@ iframe
 
 
 
- 
+ @media only screen and (max-width:1024px) 
+{
+	.navs{grid-template-columns: auto;}
+
+	#navs{text-align: center;}
+
+	.logo{background-position: center;}
+
+	#titles{font-size: 2em}
+
+	.logo:hover{background-position: center;}
+}

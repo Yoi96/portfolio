@@ -21,16 +21,7 @@ iframe
 }
 
 body{font-family:'Helvetica';}
-
-@font-face 
-{
-    font-family: 'fonts';
-    src: url('fonts/brankovic.ttf'),
-         url('fonts/Cataclysmic.ttf'),
-         url('fonts/Helvetica.ttf'),
-         url('fonts/Bodoni.ttf'),
-         url('fonts/atlas.TTF') ; 
-}
+ 
 
 #wrap
 {
@@ -50,41 +41,12 @@ body{font-family:'Helvetica';}
 }
 
 
-#navs
-{
-	max-width:1024px;
-	height:auto;
-	padding:1em;
-	line-height: 3em;
-	color: white;
-	text-align:center;
-	margin: 0px auto;
-}
-
 #home
 {
 	color: #D8C7B0;
 }
 
-.logo
-{
-	grid-area: logo;
-}
-
-.navs
-{
-	display: grid;
-	grid-template-columns: 3fr 1fr 1fr 1fr;
-	grid-column-gap: 2em;
-	grid-template-areas:'logo nav nav nav' ;
-
-}
-
-
-.nav a
-{
-	color: white;
-}
+ 
 
 .nav a:hover
 {
@@ -113,22 +75,20 @@ body{font-family:'Helvetica';}
     background-position: left;
     background-size: contain;
 }
-
-#logo
-{
-	width:4em;
-    height:3em;
-    display: block;
-    padding: 0px;
-    margin: 0px;
-    line-height:3em;  
-}
-
-#logo:hover
+ 
+.logo:hover
 {
 	background: url("../images/home_images/logo_white.png") no-repeat;
-	background-position: left;
-    background-size: contain;
+ 
+}
+
+#navs
+{
+	max-width: 1024px;
+	height: auto;
+	padding: 0px;
+	margin: 0px auto;
+	padding-top: 1em;
 }
 
 #banner
@@ -172,7 +132,7 @@ body{font-family:'Helvetica';}
 {
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-column-gap: 2em;
+	grid-column-gap: 1em;
 }
 
 .banner_right
@@ -243,21 +203,7 @@ body{font-family:'Helvetica';}
 }
 
 
-@media only screen and (max-width: 1024px) 
-{
-	.banner{grid-template-columns: auto;}
-	.banner_right{padding-bottom:20em;}
-	.the_great_wave_off_kanagawa
-	{
-		grid-template-columns: auto;
-		grid-template-areas:  "kanagawa_right" "kanagawa_left";
-		grid-gap: 3em;
-	}
-	.kanagawa_right
-	{
-		line-height: 30em;
-	}
-}
+
 
 
 #main_body
@@ -362,4 +308,27 @@ body{font-family:'Helvetica';}
 	grid-column-gap: 2em;
 	margin-top: 2em;
 	margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 1024px) 
+{
+	.banner{grid-template-columns: auto;}
+	.banner_right{padding-bottom:20em;}
+	.the_great_wave_off_kanagawa
+	{
+		grid-template-columns: auto;
+		grid-template-areas:  "kanagawa_right" "kanagawa_left";
+		grid-gap: 3em;
+	}
+	.kanagawa_right
+	{
+		line-height: 30em;
+	}
+	.banner_title{font-size: 3em}
+
+	.banner_text{
+		font-size: 1.2em;
+	}
+
+	.logo{background-position: center;}
 }
