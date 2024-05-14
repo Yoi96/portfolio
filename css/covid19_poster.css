@@ -1,11 +1,116 @@
-#header a:hover {color: orange;}
-#header a {color: black;}
-#home a:hover {color: black;}
-#home a {color: orange;}
+#navs{font-weight: bold;}
+#header a:hover {color: #A5D0F0;}
+#header a {color: #292C63;}
+#home a:hover {color: #292C63;}
+#home a {color:#A5D0F0;}
 
 .logo:hover
 {
-	background: url("../images/home_images/logo_black.png") no-repeat;
+	background: url("../images/home_images/logo_lightblue.png") no-repeat;
 	background-position: left;
     background-size: contain;
+}
+
+.logo
+{
+	background: url("../images/home_images/logo_blue.png") no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+#footer
+{
+	color: #292C63;
+}
+
+#poster
+{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 3em;
+}
+
+.poster
+{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2em;
+}
+
+.poster1
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/covid19_posters_images/02.jpg") no-repeat;
+	background-position:left;
+	background-size: contain;
+	line-height: 40em;
+}
+
+.poster2
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/covid19_posters_images/01.jpg") no-repeat;
+	background-position:right;
+	background-size: contain;
+	line-height: 40em;
+}
+
+.describe_title
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #A5D0F0;
+	margin-top: 2em;
+	font-family: 'bodoni';
+}
+
+.describe_text
+{
+	line-height: 2em;
+}
+
+#text_bold
+{
+	font-weight: bold;
+	color: #292C63;
+	text-transform: uppercase;
+}
+
+.sketche
+{
+	margin: 0px;
+	padding: 0px;
+	background: url("../images/covid19_posters_images/sketches.jpg") no-repeat;
+	background-position: right;
+	background-size: contain;
+	line-height:30em;
+}
+ 
+.mask
+{
+	margin: 0px;
+	padding:1em;
+	background: url("../images/covid19_posters_images/mask.jpg") no-repeat;
+	background-position:center;
+	background-size: contain;
+	line-height:10em;
+}
+
+#sketche_title
+{
+	padding-left:3.5em;
+}
+
+@media only screen and (max-width:1024px) 
+{
+	.poster{grid-template-columns: auto;}
+	#sketche_title{padding: 0px}
+	.sketche{background-position:center;}
+	.poster1{background-position:center;}
+	.poster2{background-position:center;}
+	.logo{background-position: center;}
+	.logo:hover{background-position: center;}
+
 }
