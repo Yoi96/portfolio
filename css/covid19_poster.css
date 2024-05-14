@@ -1,0 +1,11 @@
+#header a:hover {color: orange;}
+#header a {color: black;}
+#home a:hover {color: black;}
+#home a {color: orange;}
+
+.logo:hover
+{
+	background: url("../images/home_images/logo_black.png") no-repeat;
+	background-position: left;
+    background-size: contain;
+}
