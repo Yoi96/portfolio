@@ -1,0 +1,123 @@
+#navs{font-weight: bold;}
+#header a:hover {color: #E96034;}
+#header a {color:#7C3835;}
+#home a:hover {color:#502A35;}
+#home a {color:#E96034;}
+
+.logo:hover
+{
+	background: url("../images/home_images/logo_pink.png") no-repeat;
+	background-position: left;
+    background-size: contain;
+}
+
+.logo
+{
+	background: url("../images/home_images/logo_orange.png") no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+#footer
+{
+	color: #0C1228;
+}
+
+#column
+{
+	padding: 0px;
+	max-width: 1024px;
+	margin-top: 5em;
+	font-family: 'Helvetica';
+}
+
+
+
+.column
+{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap:5em;
+	margin: 0px auto;
+ 
+}
+
+.poster1
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/02.jpg") no-repeat;
+	background-position:left;
+	background-size:cover;
+	line-height:10em;
+}
+
+.poster2
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/03.jpg") no-repeat;
+	background-position:top;
+	background-size:cover;
+	line-height:20em;
+}
+
+.poster3
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/04.jpg") no-repeat;
+	background-position:left;
+	background-size:cover;
+	line-height:10em;
+}
+
+.poster4
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/07.jpg") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+}
+
+.describe_title
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #292C63;
+	margin-top: 2em;
+	font-family: 'bodoni';
+	text-transform: uppercase;
+}
+
+.describe_text
+{
+	line-height: 2em;
+}
+
+.text_bold
+{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.text_italic
+{
+	font-style: italic;
+}
+
+ 
+@media only screen and (max-width:1024px) 
+{
+	.column{grid-template-columns: auto;}
+	.sketche{background-position:center;}
+	.poster1{background-position:center;}
+	.poster2{background-position:top;}
+	.poster3{background-position:center;}
+	.poster4{background-position:center;}
+	.logo{background-position: center;}
+	.logo:hover{background-position: center;}
+
+}
