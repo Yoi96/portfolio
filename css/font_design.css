@@ -1,0 +1,129 @@
+#navs{font-weight: bold;}
+#header a:hover {color: #A5D0F0;}
+#header a {color: #292C63;}
+#home a:hover {color: #292C63;}
+#home a {color:#A5D0F0;}
+
+.logo:hover
+{
+	background: url("../images/home_images/logo_black.png") no-repeat;
+	background-position: left;
+    background-size: contain;
+}
+
+.logo
+{
+	background: url("../images/home_images/logo_blue.png") no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+#footer
+{
+	color: #0C1228;
+}
+
+#poster
+{
+	margin: 0px;
+	padding: 0px;
+	margin-top:3em;
+	margin-bottom: 2em;
+}
+
+.poster
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2em;
+}
+
+.poster1
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/font_design_images/01.jpg") no-repeat;
+	background-position:left;
+	background-size: contain;
+	line-height:30em;
+}
+
+.poster2
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/font_design_images/02.jpg") no-repeat;
+	background-position:left;
+	background-size: contain;
+	line-height:30em;
+}
+
+.poster3
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/font_design_images/03.jpg") no-repeat;
+	background-position:left;
+	background-size: contain;
+	line-height:30em;
+}
+
+.describe_title
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #292C63;
+	margin-top: 2em;
+	font-family: 'bodoni';
+	text-transform: uppercase;
+}
+
+.describe_text
+{
+	line-height: 2em;
+}
+
+.text_bold
+{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.text_italic
+{
+	font-style: italic;
+}
+
+.column2
+{
+	margin-top:10em;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap:4em;
+}
+
+.describe_text a
+{
+	color: #292C63;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.describe_text a:hover
+{
+	text-decoration: none;
+}
+
+@media only screen and (max-width:1024px) 
+{
+	.poster{grid-template-columns: auto;}
+	.column2{grid-template-columns: auto;}
+	#sketche_title{padding: 0px}
+	.sketche{background-position:center;}
+	.poster1{background-position:center;}
+	.poster2{background-position:center;}
+	.poster3{background-position:center;}
+	.logo{background-position: center;}
+	.logo:hover{background-position: center;}
+
+}
