@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to my Portfolio</title>
+	<link rel="shortcut icon" href="images/home_images/logo_black.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/futura.css">
+
+	
+	
+</head>
+<body>
+<div id="wrap"> <!--wrap start-->
+	<div id="main_body"><!--main_body start-->
+
+		<div id="header" class="header">
+			<div id="navs" class="navs">
+				<div id="logo" class="logo" onclick="link_to_homepage()"> &nbsp; </div>
+				<div  class="nav"><a href="index.html">HOME</a></div>
+				<div class="nav" id="home"><a href="projects.html" target="blank">PROJECTS</a></div> 
+				<div class="nav" ><a href="contact_me.html" target="blank">CONTACT&nbsp;ME</a></div> 		
+			</div><!--navs end-->
+		</div><!--header end-->
+
+	
+
+
+		
+	</div><!--main_body end-->
+</div> <!--wrap end-->
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <img src="images/futura_images/01.jpg" style="width:100%">
+</div>
+
+<div class="mySlides">
+  <img src="images/futura_images/02.jpg" style="width:100%">
+</div>
+
+<div class="mySlides">
+  <img src="images/futura_images/03.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+<script type="text/javascript" src="js/javascripts.js"></script>
+
+<div id="project" class="project">
+	<div class="describe_title">About</div>
+	<div class="describe_text">
+		<ul>
+			<li><span class="text_bold">Title: </span>Future </li>
+			<li><span class="text_bold">Class: </span>Art29500 Typography I</li>
+			<li><span class="text_bold">Colors: </span>#C11F1D, #5B595A, #333333</li>
+			<li><span class="text_bold">Text Content: </span> History and Evolution of Future Typeface </li>
+			<li><span class="text_bold">Idea: </span>This design uses vibrant red for the first word of each paragraph to draw attention to key points and to highlight the word "Future" in the title, creating a focal point. The black words background enhances the contrast and modern aesthetic, while the sleek abstract shapes and additional graphics reinforce the futuristic theme.</li>
+
+		</ul>
+	</div>
+</div>
+
+<div id="footer" class="footer">Copyright &copy; Xiaoyi Liu (Joyce) 2024</div>
+
+</body>
+</html>
