@@ -1,12 +1,12 @@
 #navs{font-weight: bold;}
 #header a:hover {color: #E96034;}
-#header a {color:#7C3835;}
-#home a:hover {color:#502A35;}
+#header a {color:black;}
+#home a:hover {color:black;}
 #home a {color:#E96034;}
 
 .logo:hover
 {
-	background: url("../images/home_images/logo_pink.png") no-repeat;
+	background: url("../images/home_images/logo_black.png") no-repeat;
 	background-position: left;
     background-size: contain;
 }
@@ -81,6 +81,28 @@
 	background-size:cover;
 	line-height:40em;
 }
+
+.poster5
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/09.png") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+}
+
+
+.poster6
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/08.webp") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+}
+
 
 .describe_title
 {
