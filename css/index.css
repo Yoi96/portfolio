@@ -66,17 +66,13 @@ body
 
 
 /******About Me*********/
-#about_me
-{
-
-  margin: 0px;
-  padding:1em;
-  margin-top: 10em;
-}
 
 .title_line
 {
   border-left: 0.6em solid #FFB439;
+  margin: 0px;
+  padding:1em;
+  margin-top: 10em;
 }
 
 .topics
@@ -313,3 +309,37 @@ iframe
   margin: 0px;
   padding-left: 1em;
 }
+
+#sidenavs
+{
+  width:1em;
+  color: white;
+  overflow-x: hidden;
+  z-index: 1;
+  text-align: center;
+  position: fixed;
+  right:1em;
+  top: 50%;
+  transition: 0.5s;
+}
+
+.sidenavs_nav
+{
+  background:gray;
+  border-radius:50%;
+  line-height: 1em;
+  margin-bottom: 1em;
+  display: block;
+}
+
+.sidenavs_nav2
+{
+  background:#FFB439;
+  border-radius:50%;
+  line-height: 1em;
+  margin-bottom: 1em;
+  display: block;
+}
+        
+.sidenavs_nav:hover{background:#FFB439;}
+.sidenavs_nav2:hover{background:orange;}
