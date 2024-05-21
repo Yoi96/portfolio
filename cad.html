@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to my Portfolio</title>
+	<link rel="shortcut icon" href="images/home_images/logo_black.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/composite_picture.css">
+
+
+	
+</head>
+<body>
+<div id="wrap"> <!--wrap start-->
+	<div id="main_body"><!--main_body start-->
+
+		<div id="header" class="header">
+
+			<div id="navs" class="navs">
+				<div id="logo" class="logo" onclick="link_to_homepage()"> &nbsp; </div>
+				<div  class="nav"><a href="index.html">HOME</a></div>
+				<div class="nav" id="home"><a href="projects.html" target="blank">PROJECTS</a></div> 
+				<div class="nav" ><a href="contact_me.html" target="blank">CONTACT&nbsp;ME</a></div> 		
+			</div><!--navs end-->
+
+
+		</div><!--header end-->
+	<script>  
+
+		var a="<img width='100%' src='images/cad/";
+		var c="CAD_";
+
+		var e=1;
+
+		var b=".jpg'";
+
+		var h="'/>"
+
+		for(var i=1;i<17;i++)
+ 		{   
+    	document.write(a+c+e+b+h);
+    	e++;
+    }
+
+	</script> 
+	
+	</div><!--main_body end-->
+</div> <!--wrap end-->
+<div class="column" id="column">
+	<div class="describe">
+		<ul>
+		<li><span class="describe_title">Blueprints</span></li>
+		<li><span class="text_bold">Date: </span>2023</li>
+		<li><span class="text_bold">Project: </span>Drill Jig Assembly</li>
+		<li><span class="text_bold">SOFTEWARE:</span> AutoCAD</li>
+		<li><span class="text_bold">Class:</span> MAE100: Computer-Aided Design</li>
+		</ul>
+	</div>
+	<div class="describe_text">
+		Using AutoCAD, I began by creating a detailed 2D sketch of the drill jig components. The base plate, drill bushings, clamping mechanisms, and locator pins were all carefully designed to ensure they fit together seamlessly. 
+
+		Once the 2D design was complete, I transitioned to 3D modeling. This step involved creating detailed models of each component, ensuring that all parts would fit together as intended. AutoCAD's 3D capabilities allowed for precise modeling of complex geometries and provided a clear visualization of the assembled jig. This was crucial for identifying any potential interferences or misalignments before moving on to the physical assembly.<br><br>
+
+		This project demonstrated the effectiveness of using AutoCAD for designing complex assembly tools like drill jigs. The software's robust 2D and 3D modeling capabilities allowed for precise design and visualization, ensuring that the final product met all required specifications. The completed drill jig not only achieved its objectives of accuracy and durability but also proved to be a valuable tool in improving the efficiency of the drilling process. 
+	</div>
+</div>
+
+<div id="footer">Copyright &copy; Xiaoyi Liu (Joyce) 2024</div>
+
+</body>
+</html>
