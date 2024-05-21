@@ -312,8 +312,6 @@ iframe
 
 #sidenavs
 {
-  width:1em;
-  color: white;
   overflow-x: hidden;
   z-index: 1;
   text-align: center;
@@ -321,25 +319,20 @@ iframe
   right:1em;
   top: 50%;
   transition: 0.5s;
+  font-size:2em;
 }
 
-.sidenavs_nav
+.sidenavs_nav a
 {
-  background:gray;
-  border-radius:50%;
-  line-height: 1em;
-  margin-bottom: 1em;
+  color:gray;
   display: block;
 }
 
-.sidenavs_nav2
+.sidenavs_nav2 a
 {
-  background:#FFB439;
-  border-radius:50%;
-  line-height: 1em;
-  margin-bottom: 1em;
+  color:#FFB439;
   display: block;
 }
         
-.sidenavs_nav:hover{background:#FFB439;}
-.sidenavs_nav2:hover{background:orange;}
+.sidenavs_nav a:hover{color:#FFB439;}
+.sidenavs_nav2 a:hover{color:orange;}
