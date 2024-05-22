@@ -1,6 +1,7 @@
 body
 {
   background: #37282F;
+  transition: color 0.5s ease;
 }
 
 #banner
@@ -335,4 +336,8 @@ iframe
 }
         
 .sidenavs_nav a:hover{color:#FFB439;}
-.sidenavs_nav2 a:hover{color:orange;}
+.sidenavs_nav2 a:hover{color:gray;}
+
+.active a {
+  color: #FFB439 !important;  
+}

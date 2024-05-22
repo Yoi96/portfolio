@@ -571,17 +571,36 @@
 	</div><!--main_body end-->
 </div> <!--wrap end-->
 
-<div id="sidenavs">
-	<div class="sidenavs_nav2"><a href="#banner">●</a></div>
-    <div class="sidenavs_nav"><a href="#about_me">●</a></div>
 
-    <div class="sidenavs_nav"><a href="#education">●</a></div>
+<div id="sidenavs">
+	<div class="sidenavs_nav" id="content"><a href="#banner">●</a></div>
+    <div class="sidenavs_nav" id="content"><a href="#about_me">●</a></div>
+
+    <div class="sidenavs_nav" id="content"><a href="#education">●</a></div>
     
-    <div class="sidenavs_nav"><a href="#experience_des">●</a></div>
-    <div class="sidenavs_nav"><a href="#skills">●</a></div>
-	<div class="sidenavs_nav"><a href="#achievements">●</a></div>
+    <div class="sidenavs_nav" id="content"><a href="#experience_des">●</a></div>
+    <div class="sidenavs_nav" id="content"><a href="#skills">●</a></div>
+	<div class="sidenavs_nav" id="content"><a href="#achievements">●</a></div>
 
 </div>
+
+<script>
+ 
+var navLinks = document.querySelectorAll('#sidenavs .sidenavs_nav a');
+ 
+navLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+ 
+        navLinks.forEach(function(otherLink) {
+            otherLink.parentElement.classList.remove('active');
+        });
+     
+        this.parentElement.classList.add('active');
+    });
+});
+ 
+</script>
+
 
 </body>
 </html>
