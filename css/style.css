@@ -75,6 +75,7 @@ iframe
 	padding:1em;
 	line-height: 3em;
 	text-align: right;
+	font-weight: bold;
 
 }
 
@@ -96,6 +97,7 @@ iframe
 .nav a
 {
 	color: white;
+
 }
 
 .nav a:hover

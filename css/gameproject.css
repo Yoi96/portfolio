@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bitter:wght@600;900&family=Cantora+One&family=Inknut+Antiqua:wght@800&family=Londrina+Solid:wght@300&family=Ma+Shan+Zheng&family=Neuton:wght@800&family=Noto+Sans+SC:wght@500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Orienta&family=Passion+One&family=Patua+One&family=Radio+Canada:wght@300&family=Righteous&family=Roboto&family=Rubik:wght@300&family=Share&family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster&family=Noto+Sans+SC:wght@500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Orienta&family=Patua+One&family=Radio+Canada:wght@300&family=Righteous&family=Roboto&family=Rubik:wght@300&family=Share&family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Bitter:wght@600;900&family=Cantora+One&family=Inknut+Antiqua:wght@800&family=Londrina+Solid:wght@300&family=Ma+Shan+Zheng&family=Neuton:wght@800&family=Noto+Sans+SC:wght@500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Orienta&family=Passion+One&family=Patua+One&family=Radio+Canada:wght@300&family=Righteous&family=Roboto&family=Rubik:wght@300&family=Share&family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&display=swap');
+
+.nav a{color: #3BB7CA;}
+.nav a:hover{color: #B500AB;}
+#home a{color: #B500AB;}
+#home a:hover{color: #3BB7CA;}
+#footer{color: #3BB7CA;}
+
+body
+{
+	background: url('../images/maze_game_images/02.jpg') repeat-y;
+	background-position: center;
+	background-size:contain;
+	color: white;
+	font-family: 'Helvetica';
+	padding: 0px;
+	margin: 0px;
+}
+
+#wrap2
+{
+	background: url('../images/maze_game_images/01.png') no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+
+
+.logo
+{
+	background: url("../images/home_images/logo_greenblue.png") no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.logo:hover
+{
+	background: url("../images/home_images/logo_purple.png") no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+
+.game_design
+{
+	padding: 0px;
+	margin-top: 1em;
+
+}
+
+.topic
+{
+	color: white;
+	font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  font-weight:bold;
+  font-size:7em;
+  margin-top:2em;
+
+}
+
+.download_button a{color: white;}
+
+.download_button
+{
+	font-size:2em;
+	line-height:2em;
+	text-align: center;
+	color: white;
+	font-weight:bold;
+	background: #3BB7CA;
+  width:7em;
+  border-radius: 15px;
+  margin: 0px auto;
+  margin-bottom: 10em;
+
+}
+
+.download_button:hover
+{
+	background: #B500AB;
+}
+
+.column_left
+{
+	grid-area: column_left;
+}
+
+.column_right
+{
+	grid-area: column_right;
+}
+
+
+#column
+{ 
+	margin-top: 5em;
+	font-family: 'Helvetica';
+	padding: 0px;
+}
+
+.column
+{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas:'column_left column_right';
+	margin: 0px auto;
+	gap:5em;
+}
+
+
+.column2
+{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas:'column_left column_right';
+	margin: 0px auto;
+	gap:5em;
+}
+
+.column3
+{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0px auto;
+	grid-column-gap: 2em;
+	grid-row-gap: 2em;
+	grid-template-areas:'column_left column_right';
+}
+
+
+
+.describe_title
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	color:pink;
+	margin-top: 2em;
+	font-family: 'bodoni';
+	text-transform: uppercase;
+}
+
+#describe_text
+{
+	line-height: 2em;
+}
+
+.text_bold
+{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.text_italic
+{
+	font-style: italic;
+}
+
+
+ 
+
+.face 
+{
+  background: url('../images/maze_game_images/21.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+  width:29em;
+  position: relative;
+  margin-top: 1em;
+  height:29em;        
+}
+
+.face::after
+{
+  content: '';
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5em;
+  height: 4em;            
+}
+
+.eye
+{
+	position: absolute;
+  width:23px;
+  height:23px;
+  border-radius: 50%;
+  background-color:#75cbd3;           
+}
+
+.eye::after
+{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: transLateY(-50%);
+  width: 70%;
+  height: 70%;
+  background-color: #000;
+  border-radius: 50%;
+            
+}
+
+.face .eye:nth-child(1)
+{
+     
+  top: 46%;
+  left:39%;
+}
+
+.face .eye:nth-child(2)
+{
+     
+  top: 46%;
+  right:41%;
+}
+
+ 
+
+.face
+{
+	grid-area: face;
+}
+
+.poster
+{
+	margin: 0px auto;
+	background: url('../images/maze_game_images/06.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  line-height: 35em;
+  margin-top: 5em;
+
+}
+
+
+
+#player
+{
+	background: url('../images/maze_game_images/27.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 400px;
+	height:450px; 
+	border-bottom: 20px solid #3BB7CA;
+}
+
+#player:hover
+{
+	background: url('../images/maze_game_images/14.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#npc
+{
+	background: url('../images/maze_game_images/16.jpg') no-repeat;
+	background-position:left;
+	background-size: cover;
+	border-radius: 400px;
+	height:450px;  
+	border-bottom: 20px solid #3BB7CA;
+}
+
+#npc2
+{
+	background: url('../images/maze_game_images/15.jpg') no-repeat;
+	background-position:center;
+	background-size: cover;
+	border-radius: 400px;
+	height:450px;  
+	border-bottom: 20px solid #3BB7CA;
+}
+
+#npc3
+{
+	background: url('../images/maze_game_images/08.jpg') no-repeat;
+	background-position:center;
+	background-size: cover;
+	border-radius: 400px;
+	height:450px;  
+	border-bottom: 20px solid #3BB7CA;
+}
+
+#npc3:hover
+{
+	background: url('../images/maze_game_images/28.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#npc:hover
+{
+	background: url('../images/maze_game_images/29.jpg') no-repeat;
+	background-position: left;
+	background-size: cover;
+}
+
+#npc2:hover
+{
+	background: url('../images/maze_game_images/30.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.poster2
+{
+	margin: 0px auto;
+	background: url('../images/maze_game_images/11.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  line-height: 35em;
+  margin-top: 5em;
+
+}
+
+.poster3
+{
+	margin: 0px auto;
+	background: url('../images/maze_game_images/18.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  line-height: 35em;
+  margin-top: 5em;
+
+}
+
+.poster4
+{
+	margin: 0px auto;
+	background: url('../images/maze_game_images/07.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  line-height: 35em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+
+}
+
+  
+#gameitems
+{
+	background: url('../images/maze_game_images/10.png') no-repeat;
+	background-position:center;
+	background-size:contain;
+	height:450px;  
+}
+
+#gameitems2
+{
+	background: url('../images/maze_game_images/09.png') no-repeat;
+	background-position:center;
+	background-size:contain;
+	height:450px;  
+}
+
+#gameitems3
+{
+	background: url('../images/maze_game_images/03.png') no-repeat;
+	background-position:center;
+	background-size:contain;
+	height:450px;  
+}
+
+#gameitems4
+{
+	background: url('../images/maze_game_images/04.png') no-repeat;
+	background-position:center;
+	background-size:contain;
+	height:450px;  
+}
+
+#gameitems5
+{
+	background: url('../images/maze_game_images/23.png') no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:450px;  
+}
+
+
+#gameitems6
+{
+	background: url('../images/maze_game_images/24.png') no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:450px;  
+}
+
+
+#gameitems7
+{
+	background: url('../images/maze_game_images/25.png') no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:450px;  
+}
+
+
+#gameitems8
+{
+	background: url('../images/maze_game_images/26.png') no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:450px;  
+}
+
+ 
+.maze_video3
+{
+	margin-top:2em;
+}
+
+.video_title
+{
+	margin-top:5em;
+	margin-bottom: 2em;
+
+}
+
+
+
+ @media only screen and (max-width:1024px) 
+{
+	.navs{grid-template-columns: auto;}
+
+	#navs{text-align: center;}
+
+	.logo{background-position: center;}
+
+	#titles{font-size: 2em}
+
+	.logo:hover{background-position: center;}
+
+	.nav
+	{
+		background: #3BB7CA; 
+		color: white;
+	}
+
+	#home a, .nav a, #home a:hover, .nav a:hover{color: white;}
+
+	.nav:hover
+	{
+		color: white;
+		background: #B500AB;
+	}
+
+	.topic{font-size:4em}
+
+	.column
+	{
+		grid-template-columns: auto;
+		grid-template-areas:'column_left' 'column_right';
+		
+	}
+
+	.column2
+	{
+		grid-template-columns: auto;
+		grid-template-areas: 'column_right' 'column_left';
+	}
+
+	.column3
+	{
+		grid-template-columns: auto;
+		grid-template-areas:'column_left' 'column_right';
+		
+	}
+
+	.poster2,.poster,.poster3,.poster4
+	{
+		background-size:contain;
+		line-height:15em;
+	}
+
+
+}
