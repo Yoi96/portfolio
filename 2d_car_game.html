@@ -23,17 +23,75 @@
 			</div><!--navs end-->
 		</div><!--header end-->
 
-		<div id="poster" class="poster">
+		<div id="posters" class="posters">
 			<div class="poster1">&nbsp;</div>
 			<div class="poster2">&nbsp;</div>
 			<div class="poster3">&nbsp;</div>
+			<div class="poster4">&nbsp;</div>
 		</div>
 
+		<div class="column2">
+			<div class="describe_text">
+				<ul>
+					<li><span class="describe_title">About</span></li>
+					<li><span class="text_bold">2D Car Unity Game</span></li>
+					<li><span class="text_bold">Date: </span>08/03/2020</li>
+					<li><span class="text_bold">Class: </span> MAC280-Game Programming</li>
+					<li><span class="text_bold">Software:  </span>Adobe Photoshop & Unity</li>
+					<li><span class="text_bold">Video: </span>https://www.youtube.com/watch?v=bQaRM8T2AGE</li>
+
+				</ul>
+			</div>
+			<div class="describe_text">
+				<ul>
+					<li><span class="describe_title">Game Concept</span></li>
+					<li>In my game, when the player's car hits another car, they will exit the game. If the player's car avoids other cars and survives for a certain time, the player will earn points. The background will automatically move, creating the illusion that the player’s car is driving on the road.</li><br>
+					<li><span class="describe_title">Steps</span></li>
+					<li><span class="text_bold">Design Elements:</span></li>
+					<li>Design the game cover, buttons, and background in Photoshop. Find car images online. </li><br>
+					<li><span class="describe_title">Scenes:</li>
+					<li><span class="text_bold">Menu Scene:</span></li>
+					<li>Contains a button to navigate to the car selection scene.</li>
+					<li>Background music is added.</li>
+					<li>The button uses a script to handle clicks and transition to the next scene.</li><br>
+					<li><span class="text_bold">Car Selection Scene:</span></li>
+					<li>Contains a button to start the game.</li>
+					<li>Background music is added.</li>
+					<li>The button uses a script to handle clicks and transition to the playing scene.</li><br>
+					<li><span class="text_bold">Playing Scene:</span></li>
+					<li>The background uses a quad game object with a script for vertical sliding, creating a repeating effect.</li><br>
+					<li><span class="describe_title">Player Car</span></li>
+					<li><span class="text_bold">CarController Script:</span></li>
+					<li>Controls the player's car speed, direction, and maximum position.</li>
+					<li>Uses Rigidbody 2D and Box Collider 2D to prevent the car from passing through enemy cars.</li>
+					<li>Includes background music that plays during the game.</li><br>
+					<li><span class="describe_title">Enemy Cars</span></li>
+					<li><span class="text_bold">Prefabs:</span></li>
+					<li>Enemy cars are prefab objects.</li><br>
+					<li><span class="text_bold">Enemy Car Move Script:</span></li>
+					<li>Sets speed, direction, and maximum position.<br>Uses Rigidbody 2D and Box Collider 2D to prevent passing through the player's car.</li><br>
+					<li><span class="text_bold">CarSpawnPosition GameObject:</span></li>
+					<li>Randomly spawns enemy cars.</li><br>
+					<li><span class="text_bold">Car Spawn Script:</span></li>
+					<li>Manages vehicle sequence, maximum position, and spawn delay.</li><br>
+					<li><span class="text_bold">Destroyer GameObject:</span></li>
+					<li>Uses an enemy destroyer script to remove enemy cars from view.<br>Uses Rigidbody 2D and Box Collider 2D to resize the destroyer range.</li><br>
+					<li><span class="describe_title">Buttons</span></li>
+					<li><span class="text_bold">UI Buttons (Stop, Play, Menu, Exit):</span> <br>Add background images to the buttons.<br><br><span class="text_bold">ButtonMenu Script: </span><br>Handles clicks to navigate back to the menu, stop the game, replay the game, or exit the game. <br>Buttons appear after the game is over.</li><br>
+					<li><span class="describe_title">Score</span></li>
+					<li><span class="text_bold">UIManager Script:</span></li>
+					<li>Increments the score by 1 point for every 3 seconds the player’s car survives.<br>Displays play, menu, and exit buttons after the game ends.<br>Stops the score from increasing when the game is over.</li>
+
+				</ul>
+			</div>
+		</div>
 
  
 		
 	</div><!--main_body end-->
 </div> <!--wrap end-->
+
+
 
 
 <div id="footer" class="footer">Copyright &copy; Xiaoyi Liu (Joyce) 2024</div>
