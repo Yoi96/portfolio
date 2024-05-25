@@ -4,16 +4,17 @@
 #home a:hover {color:black;}
 #home a {color:#E96034;}
 
+
 .logo:hover
 {
-	background: url("../images/home_images/logo_black.png") no-repeat;
+	background: url("../images/home_images/logo_pink.png") no-repeat;
 	background-position: left;
     background-size: contain;
 }
 
 .logo
 {
-	background: url("../images/home_images/logo_orange.png") no-repeat;
+	background: url("../images/home_images/logo_black.png") no-repeat;
     background-position: left;
     background-size: contain;
 }
@@ -25,71 +26,74 @@
 
 #column
 {
-	padding: 1em;
 	max-width: 1024px;
-	margin-top: 5em;
 	font-family: 'Helvetica';
+	padding:1em;	
 }
-
-
 
 .column
 {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-gap:5em;
+	grid-gap: 5em;
 	margin: 0px auto;
- 
+}
+
+.column3
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 3em;
 }
 
 .poster1
 {
 	padding: 0px;
 	margin: 0px;
-	background: url("../images/composite_picture_images/02.jpg") no-repeat;
-	background-position:left;
-	background-size:cover;
-	line-height:10em;
+	background: url("../images/i_logo_images/01.jpg") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:40em;
 }
 
 .poster2
 {
 	padding: 0px;
 	margin: 0px;
-	background: url("../images/composite_picture_images/03.jpg") no-repeat;
-	background-position:top;
-	background-size:cover;
-	line-height:20em;
+	background: url("../images/i_logo_images/02.jpg") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:40em;
 }
 
 .poster3
 {
 	padding: 0px;
 	margin: 0px;
-	background: url("../images/composite_picture_images/04.jpg") no-repeat;
-	background-position:left;
-	background-size:cover;
-	line-height:10em;
+	background: url("../images/i_logo_images/04.jpg") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:20em;
 }
 
 .poster4
 {
 	padding: 0px;
 	margin: 0px;
-	background: url("../images/composite_picture_images/07.jpg") no-repeat;
+	background: url("../images/i_logo_images/05.jpg") no-repeat;
 	background-position:center;
-	background-size:cover;
-	line-height:40em;
+	background-size:contain;
+	line-height:20em;
 }
 
 .poster5
 {
 	padding: 0px;
 	margin: 0px;
-	background: url("../images/composite_picture_images/09.png") no-repeat;
+	background: url("../images/i_logo_images/06.jpg") no-repeat;
 	background-position:center;
-	background-size:cover;
-	line-height:40em;
+	background-size:contain;
+	line-height:20em;
 }
 
 
@@ -97,10 +101,10 @@
 {
 	padding: 0px;
 	margin: 0px;
-	background: url("../images/composite_picture_images/08.webp") no-repeat;
+	background: url("../images/i_logo_images/03.jpg") no-repeat;
 	background-position:center;
 	background-size:cover;
-	line-height:40em;
+	line-height:30em;
 }
 
 
@@ -134,12 +138,9 @@
 @media only screen and (max-width:1024px) 
 {
 	.column{grid-template-columns: auto;}
-	.sketche{background-position:center;}
-	.poster1{background-position:center;}
-	.poster2{background-position:top;}
-	.poster3{background-position:center;}
-	.poster4{background-position:center;}
 	.logo{background-position: center;}
 	.logo:hover{background-position: center;}
+	.poster1{line-height: 20em}
+	.poster2{line-height: 20em}
 
 }

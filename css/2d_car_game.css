@@ -118,4 +118,10 @@ html
   font-style: italic;
 }
 
- 
+@media only screen and (max-width:1024px) 
+{
+  .column,.column2,.posters{grid-template-columns: auto;}
+  .logo{background-position: center;}
+  .logo:hover{background-position: center;}
+
+}

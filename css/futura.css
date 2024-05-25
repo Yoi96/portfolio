@@ -114,9 +114,10 @@
   max-width: 1024px;
   height: auto;
   margin: 0px auto;
-  padding: 0px;
+  padding: 1em;
   margin-top: 3em;
   font-family: 'Helvetica';
+
 }
 
 .describe_title
