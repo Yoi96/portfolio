@@ -39,6 +39,14 @@
 	margin: 0px auto;
 }
 
+.column2
+{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 3em;
+}
+
+
 .column3
 {
 	display: grid;
@@ -106,6 +114,18 @@
 	background-size:cover;
 	line-height:30em;
 }
+
+.poster7
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/yoi_images/04.png") no-repeat;
+	background-position:top;
+	background-size:cover;
+	padding-bottom: 300em;
+}
+
+ 
 
 
 .describe_title
