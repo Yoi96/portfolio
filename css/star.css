@@ -1,8 +1,8 @@
 #navs{font-weight: bold;}
-#header a:hover {color: #E96034;}
+#header a:hover {color: orange;}
 #header a {color:black;}
 #home a:hover {color:black;}
-#home a {color:#E96034;}
+#home a {color:orange;}
 
 
 .logo:hover
@@ -14,7 +14,7 @@
 
 .logo
 {
-	background: url("../images/home_images/logo_pink.png") no-repeat;
+	background: url("../images/home_images/logo_yellow.png") no-repeat;
     background-position: left;
     background-size: contain;
 }
@@ -54,78 +54,70 @@
 	grid-column-gap: 3em;
 }
 
-.poster1
+
+.poster11
 {
+ 
 	padding: 0px;
 	margin: 0px;
-	background: url("../images/i_logo_images/01.jpg") no-repeat;
-	background-position:center;
-	background-size:contain;
-	line-height:40em;
-}
-
-.poster2
-{
-	padding: 0px;
-	margin: 0px;
-	background: url("../images/i_logo_images/02.jpg") no-repeat;
-	background-position:center;
-	background-size:contain;
-	line-height:40em;
-}
-
-.poster3
-{
-	padding: 0px;
-	margin: 0px;
-	background: url("../images/i_logo_images/04.jpg") no-repeat;
-	background-position:center;
-	background-size:contain;
-	line-height:20em;
-}
-
-.poster4
-{
-	padding: 0px;
-	margin: 0px;
-	background: url("../images/i_logo_images/05.jpg") no-repeat;
-	background-position:center;
-	background-size:contain;
-	line-height:20em;
-}
-
-.poster5
-{
-	padding: 0px;
-	margin: 0px;
-	background: url("../images/i_logo_images/06.jpg") no-repeat;
-	background-position:center;
-	background-size:contain;
-	line-height:20em;
-}
-
-
-.poster6
-{
-	padding: 0px;
-	margin: 0px;
-	background: url("../images/i_logo_images/03.jpg") no-repeat;
-	background-position:center;
-	background-size:cover;
-	line-height:30em;
-}
-
-.poster7
-{
-	padding: 0px;
-	margin: 0px;
-	background: url("../images/yoi_images/04.png") no-repeat;
+	background: url("../images/intertwined_fate_images/02.png") no-repeat;
 	background-position:top;
 	background-size:cover;
-	padding-bottom: 300em;
+	line-height:30em;
+ 
 }
 
+.poster12
+{
  
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/intertwined_fate_images/04.jpg") no-repeat;
+	background-position:top;
+	background-size:cover;
+	line-height:30em;
+ 
+}
+
+.poster13
+{
+ 
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/intertwined_fate_images/05.jpg") no-repeat;
+	background-position:top;
+	background-size:contain;
+	line-height:20em;
+ 
+}
+
+.poster14
+{
+ 
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/intertwined_fate_images/01.png") no-repeat;
+	background-position:top;
+	background-size:cover;
+	line-height:35em;
+	margin-top: 3em;
+ 
+}
+
+.poster15
+{
+ 
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/intertwined_fate_images/03.png") no-repeat;
+	background-position:top;
+	background-size:cover;
+	line-height:35em;
+	margin-top: 3em;
+ 
+}
+
+
 
 
 .describe_title
@@ -158,9 +150,10 @@
 @media only screen and (max-width:1024px) 
 {
 	.column{grid-template-columns: auto;}
+	.column2{grid-template-columns: auto;}
 	.logo{background-position: center;}
 	.logo:hover{background-position: center;}
-	.poster1{line-height: 20em}
-	.poster2{line-height: 20em}
+	.poster13{line-height: 10em;}
+	.poster12{margin-top: 3em;}
 
 }
