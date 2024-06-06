@@ -48,14 +48,13 @@ label
 	margin-bottom: 1em;
 }
 
-#sumbit_button
+
+.submit_button
 {
-	width: 100%;
-	height: auto;
 	text-align: center;
+	padding: 0px;
+	margin: 0px auto;
 }
-
-
 
 button
 {
@@ -64,13 +63,11 @@ button
 	border: none;
 	line-height: 1.5em;
 	width:6em;
-	padding: 0px;
-	margin: 0px auto;
-	cursor: pointer;
 	border-radius: 5%;
 	font-size: 1.2em;
 	line-height: 2em;
 	text-align: center;
+	
 }
 
 button:hover

@@ -8,25 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/contact_me.css">
 
-	<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script>
-        (function() {
-            emailjs.init("your_user_id");
-        })();
-        
-        function sendEmail(event) {
-            event.preventDefault();
-            
-            emailjs.sendForm('your_service_id', 'your_template_id', event.target)
-                .then((response) => {
-                    alert('Mail sent successfully!', response.status, response.text);
-                }, (error) => {
-                    alert('Email sending failed...', error);
-                });
-        }
-    </script>
-
-	
 </head>
 <body>
 <div id="wrap"> <!--wrap start-->
@@ -47,23 +28,30 @@
 
 		<div class="contact_me" id="contact_me">  
    <div class="contents_title"> <span>CONTACT ME</span></div>
-   <form action="https://formspree.io/f/meqybdky" method="POST"> 
-  	 
+   <!----<form action="https://formspree.io/f/meqybdky" method="POST"> -->
+
+ 
     <label for="fname">First Name:</label>
-    <input type="text" class="textbox" name="firstname" placeholder="Your name.." required>
+    <input type="text" class="textbox" name="firstname" placeholder="Your name.." required id="fname">
 
     <label for="lname">Last Name:</label>
-    <input type="text" class="textbox" name="lastname" placeholder="Your last name.." required>
+    <input type="text" class="textbox" id="lname" name="lastname" placeholder="Your last name.." required>
 
     <label for="email">Email:</label>
-    <input type="text" class="textbox" id="emial" name="email" placeholder="Your Email address" required>
+    <input type="text" class="textbox" id="email" name="email" placeholder="Your Email address" required>
 
-    <label for="subject">Massage:</label>
-    <textarea id="subject" class="textbox" name="subject" placeholder="Write something.." style="height:200px"required></textarea>
+    <label for="message">Message:</label>
+    <textarea id="message" class="textbox" name="message" placeholder="Write something.." style="height:200px" required></textarea>
 
-   <div id="sumbit_button"><button type="submit">Sumbit</button></div>
+    <div class="submit_button">
+    <button type="button" id="submit_button">Submit</button>
+    </div>
+    
+ 
 
-  </form>
+<script src="js/email_script.js"></script>
+
+
 
 </div>
 
