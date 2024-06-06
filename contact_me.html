@@ -2,11 +2,29 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Welcome to my Portfolio</title>
 	<link rel="shortcut icon" href="images/home_images/logo_black.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/contact_me.css">
+
+	<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("your_user_id");
+        })();
+        
+        function sendEmail(event) {
+            event.preventDefault();
+            
+            emailjs.sendForm('your_service_id', 'your_template_id', event.target)
+                .then((response) => {
+                    alert('Mail sent successfully!', response.status, response.text);
+                }, (error) => {
+                    alert('Email sending failed...', error);
+                });
+        }
+    </script>
 
 	
 </head>
@@ -29,7 +47,8 @@
 
 		<div class="contact_me" id="contact_me">  
    <div class="contents_title"> <span>CONTACT ME</span></div>
-  <form action="mailto:xiaoyiliu96xyl@gmail.com">
+  <!---<form action="https://formspree.io/f/meqybdky" method="POST">--->
+  	<form action="send_email.php" method="POST">
 
     <label for="fname">First Name:</label>
     <input type="text" class="textbox" name="firstname" placeholder="Your name..">
