@@ -48,21 +48,21 @@
 		<div class="contact_me" id="contact_me">  
    <div class="contents_title"> <span>CONTACT ME</span></div>
   <!---<form action="https://formspree.io/f/meqybdky" method="POST">--->
-  	<form method="POST" onsubmit="sendEmail(event)">
+  	<form action="send_email.php" method="POST">
 
     <label for="fname">First Name:</label>
-    <input type="text" class="textbox" name="firstname" placeholder="Your name..">
+    <input type="text" class="textbox" name="firstname" placeholder="Your name.." required>
 
     <label for="lname">Last Name:</label>
-    <input type="text" class="textbox" name="lastname" placeholder="Your last name..">
+    <input type="text" class="textbox" name="lastname" placeholder="Your last name.." required>
 
     <label for="email">Email:</label>
-    <input type="text" class="textbox" id="emial" name="email" placeholder="Your Email address">
+    <input type="text" class="textbox" id="emial" name="email" placeholder="Your Email address" required>
 
     <label for="subject">Massage:</label>
-    <textarea id="subject" class="textbox" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" class="textbox" name="subject" placeholder="Write something.." style="height:200px"required></textarea>
 
-   <div id="sumbit_button"><button>Sumbit</button></div>
+   <div id="sumbit_button"><button type="submit">Sumbit</button></div>
 
   </form>
 
