@@ -125,7 +125,27 @@
 	padding-bottom: 300em;
 }
 
- 
+.poster8
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/projects_images/26.jpg") no-repeat center center;
+	background-attachment: scroll;
+	background-size:contain;
+	background-color: #3E3E4A;
+	line-height:50em;
+}
+
+.poster9
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/projects_images/25.jpg") no-repeat center center;
+	background-attachment: scroll;
+	background-size:contain;
+	background-color:#3B3B3B;
+	line-height:50em;
+}
 
 
 .describe_title
@@ -160,7 +180,8 @@
 	.column{grid-template-columns: auto;}
 	.logo{background-position: center;}
 	.logo:hover{background-position: center;}
-	.poster1{line-height: 20em}
-	.poster2{line-height: 20em}
+	.poster1{line-height: 20em;}
+	.poster2{line-height: 20em;}
+	.poster8{line-height:25em;}
 
 }
