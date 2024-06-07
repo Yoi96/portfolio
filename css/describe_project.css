@@ -147,6 +147,17 @@
 	line-height:50em;
 }
 
+.poster10
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/projects_images/18.gif") no-repeat center center;
+	background-attachment: scroll;
+	background-size:contain;
+	line-height:50em;
+}
+
+
 
 .describe_title
 {
@@ -183,5 +194,6 @@
 	.poster1{line-height: 20em;}
 	.poster2{line-height: 20em;}
 	.poster8{line-height:25em;}
+	.poster10{line-height:25em;}
 
 }
