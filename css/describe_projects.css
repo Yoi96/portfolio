@@ -39,9 +39,9 @@
 
 /******navs*************/
 
-#wrap2{background: #322F40}
-#wrap3{background:#3B3B3B;}
-#wrap4{background: #3E3E4A;}
+.wrap2{background: #322F40}
+.wrap3{background:#3B3B3B;}
+.wrap4{background: #3E3E4A;}
 
 
 
@@ -80,6 +80,21 @@
     background-position: left;
     background-size: contain;
 }
+
+.logo4
+{
+	background: url("../images/home_images/logo_yellow.png") no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.logo4:hover
+{
+	background: url("../images/home_images/logo_white.png") no-repeat;
+	background-position: left;
+    background-size: contain;
+}
+
 
 
 #footer
