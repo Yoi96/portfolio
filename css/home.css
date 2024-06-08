@@ -1,5 +1,5 @@
 body{background: #37282F;}
-
+/*
 #banner
 {
 	max-width:1024px;
@@ -11,6 +11,7 @@ body{background: #37282F;}
   margin: 0px;
   margin-top:2em;
   margin-bottom:5em;
+  background-attachment: fixed;
 
 }
 
@@ -18,6 +19,7 @@ body{background: #37282F;}
 {
 	line-height:30em;
 }
+*/
 
 .triangle 
 {
@@ -260,7 +262,7 @@ body{background: #37282F;}
 {
 	.banner
 	{
-		line-height:15em;
+		line-height:20em;
 	}
 
 	.edu_line
@@ -294,6 +296,7 @@ body{background: #37282F;}
   -webkit-animation: triangle 2s ease infinite;
           animation: triangle 2s ease infinite;
 }
+
 @-webkit-keyframes triangle {
   0% {
     opacity: 1;
@@ -304,6 +307,7 @@ body{background: #37282F;}
     transform: translateY(20px);
   }
 }
+
 @keyframes triangle {
   0% {
     opacity: 1;

@@ -3,7 +3,7 @@ body
   background: #37282F;
   transition: color 0.5s ease;
 }
-
+/*
 #banner
 {
 	max-width:1024px;
@@ -22,6 +22,13 @@ body
 {
 	line-height:30em;
 }
+*/
+
+#banner
+{
+  margin-top: 3em;
+  margin-bottom:10em;
+}
 
 .triangle 
 {
@@ -32,6 +39,7 @@ body
   border-top: 1em solid white; 
   display: block;
   margin: 0px auto;
+  padding: 0px;
 }
 
 .triangle 
