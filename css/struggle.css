@@ -42,26 +42,33 @@ ul
 a{
     text-decoration: none;
     color: white;
+
 }
 
 a:hover
 {
     text-decoration: underline;
     text-decoration-thickness:20%;
+    color: yellow;
 }
 
 span a
 {
-    color: black;
+    color: yellow;
     text-decoration: underline;
     text-decoration-thickness:20%;
 
 }
 
-a:hover
+span a:hover
 {
     color: white;
+    text-decoration: underline;
+    text-decoration-thickness:20%;
+
 }
+
+ 
 
 img {
     max-width: 100%;
