@@ -79,6 +79,8 @@ body{font-family:'Helvetica';}
 .logo:hover
 {
 	background: url("../images/home_images/logo_white.png") no-repeat;
+	background-position: left;
+    background-size: contain;
  
 }
 
@@ -331,4 +333,5 @@ body{font-family:'Helvetica';}
 	}
 
 	.logo{background-position: center;}
+	.logo:hover{background-position: center;}
 }
