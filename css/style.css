@@ -1,0 +1,180 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+ul
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+li
+{
+	line-height: 2em;
+}
+
+a
+{
+	color: #FFB439;
+	text-decoration: none;
+	
+}
+
+iframe
+{
+	border: none;
+	overflow: hidden;
+}
+
+
+
+
+
+@font-face 
+{
+    font-family: 'fonts';
+    src: url('fonts/brankovic.ttf'),
+         url('fonts/Cataclysmic.ttf'),
+         url('fonts/Helvetica.ttf'),
+         url('fonts/Bodoni.ttf'),
+         url('fonts/atlas.TTF') ; 
+}
+
+#wrap
+{
+	width: 100%;
+	height: auto;
+	font-family: 'fonts', sans-serif;
+}
+
+#main_body
+{
+	max-width: 1024px;
+	height: auto;
+	margin: 0px auto;
+	padding:1em;
+}
+
+/**Header**/
+
+#header
+{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+#navs
+{
+
+	margin: 0px;
+	padding:1em;
+	line-height: 3em;
+	text-align: right;
+	font-weight: bold;
+
+}
+
+#home
+{
+	color: #FFB439;
+}
+ 
+
+.navs
+{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1em;
+}
+
+
+
+.nav a
+{
+	color: white;
+
+}
+
+.nav a:hover
+{
+	color: #FFB439;
+	text-decoration: underline;
+	text-decoration-thickness:0.2em;
+
+}
+
+#home a
+{
+	color: #FFB439;
+	text-decoration: underline;
+	text-decoration-thickness:0.2em;
+}
+
+#home a:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+.logo
+{
+	background: url("../images/home_images/logo_yellow.png") no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+#logo
+{
+	width:100%;
+    height:auto;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo:hover
+{
+	background: url("../images/home_images/logo_white.png") no-repeat;
+	background-position: left;
+    background-size: contain;
+}
+
+
+
+
+
+#footer
+{
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Helvetica';
+    src:url("fonts/Helvetica-Bold.ttf");
+    text-transform: capitalize; 
+    font-size: 1em;
+    margin: 0px auto;
+    color:  #FFB439;
+    margin-top: 5em;
+
+}
+
+
+
+ @media only screen and (max-width:1024px) 
+{
+	.navs{grid-template-columns: auto;}
+
+	#navs{text-align: center;}
+
+	.logo{background-position: center;}
+
+	#titles{font-size: 2em}
+
+	.logo:hover{background-position: center;}
+}

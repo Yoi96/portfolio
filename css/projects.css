@@ -1,0 +1,240 @@
+
+body{background: #37282F;}
+
+#projects
+{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 3em;
+}
+
+ 
+#designs
+{
+	width: 100%;
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 2em;
+	grid-row-gap: 3em;
+}
+
+
+
+#project
+{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	line-height:20em;
+    border-radius: 3%; 
+}
+
+#project:hover
+{
+	background-position:center;
+    background-size:contain;
+
+}
+
+
+#project
+{
+	background-position:center;
+    background-size:cover;
+
+}
+
+
+@media only screen and (max-width: 1024px) 
+{
+	#designs{grid-template-columns: auto;}
+}
+
+
+.project1
+{
+	background: url("../images/projects_images/1.jpg") no-repeat;	
+	
+}
+
+.project2
+{
+	background: url("../images/projects_images/2.jpg") no-repeat;
+	
+}
+
+.project3
+{
+	background: url("../images/projects_images/3.jpg") no-repeat;
+
+
+}
+
+.project4
+{
+	background: url("../images/projects_images/4.jpg") no-repeat;
+	
+
+}
+
+.project5
+{
+	background: url("../images/projects_images/5.jpg") no-repeat;
+	
+}
+
+.project6
+{
+	background: url("../images/projects_images/6.jpg") no-repeat;
+	
+
+}
+
+.project7
+{
+	background: url("../images/projects_images/7.jpg") no-repeat;
+	
+
+}
+
+.project8
+{
+	background: url("../images/projects_images/8.jpg") no-repeat;
+	
+
+}
+
+.project9
+{
+	background: url("../images/projects_images/9.jpg") no-repeat;
+	
+
+}
+
+.project10
+{
+	background: url("../images/projects_images/10.jpg") no-repeat;
+	
+
+}
+
+.project11
+{
+	background: url("../images/projects_images/11.jpg") no-repeat;
+	
+
+}
+
+.project12
+{
+	background: url("../images/projects_images/12.jpg") no-repeat;
+	
+
+}
+
+.project13
+{
+	background: url("../images/projects_images/13.jpg") no-repeat;
+	
+
+}
+
+.project14
+{
+	background: url("../images/projects_images/14.jpg") no-repeat;
+	
+
+}
+
+.project15
+{
+	background: url("../images/projects_images/15.jpg") no-repeat;
+	
+
+}
+
+.project16
+{
+	background: url("../images/projects_images/16.jpg") no-repeat;
+	
+
+}
+
+.project17
+{
+	background: url("../images/projects_images/17.gif") no-repeat;
+	
+
+}
+
+.project18
+{
+	background: url("../images/projects_images/18.gif") no-repeat;
+	
+
+}
+
+.project19
+{
+	background: url("../images/projects_images/19.jpg") no-repeat;
+	
+
+}
+
+.project20
+{
+	background: url("../images/projects_images/20.jpg") no-repeat;
+	
+
+}
+
+.project21
+{
+	background: url("../images/projects_images/21.jpg") no-repeat;
+	
+
+}
+
+.project22
+{
+	background: url("../images/projects_images/22.jpg") no-repeat;
+	
+}
+
+.project23
+{
+	background: url("../images/projects_images/23.jpg") no-repeat;
+	
+
+}
+
+.project24
+{
+	background: url("../images/projects_images/24.jpg") no-repeat;
+	
+
+}
+.project25
+{
+	background: url("../images/projects_images/25.jpg") no-repeat;
+	
+
+}
+
+.project26
+{
+	background: url("../images/projects_images/26.jpg") no-repeat;
+	
+
+}
+
+.project27
+{
+	background: url("../images/projects_images/27.jpg") no-repeat;
+	
+
+}

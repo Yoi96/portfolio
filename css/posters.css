@@ -1,0 +1,403 @@
+.poster1
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/font_design_images/01.jpg") no-repeat;
+	background-position:top;
+	background-size:contain;
+	line-height:30em;
+}
+
+.poster2
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/font_design_images/02.jpg") no-repeat;
+	background-position:top;
+	background-size:contain;
+	line-height:30em;
+}
+
+.poster3
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/font_design_images/03.jpg") no-repeat;
+	background-position:top;
+	background-size:contain;
+	line-height:30em;
+}
+
+.poster1_1
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/font_design_images/01.jpg") no-repeat;
+	background-position:top;
+	background-size:contain;
+	line-height:30em;
+	background-attachment:local;
+}
+
+
+
+/******Choking*************/
+.poster4
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/choking_images/02.jpg") no-repeat;
+	background-position:top;
+	background-size: contain;
+	line-height:30em;
+}
+
+.poster5
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/choking_images/03.jpg") no-repeat;
+	background-position:top;
+	background-size: contain;
+	line-height:30em;
+}
+
+.poster6
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/choking_images/01.jpg") no-repeat;
+	background-position:top;
+	background-size: contain;
+	line-height:30em;
+}
+
+/******composite_picture_images*************/
+.poster7
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/02.jpg") no-repeat;
+	background-position:left;
+	background-size:cover;
+	line-height:10em;
+}
+
+.poster8
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/03.jpg") no-repeat;
+	background-position:top;
+	background-size:cover;
+	line-height:20em;
+}
+
+.poster9
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/04.jpg") no-repeat;
+	background-position:left;
+	background-size:cover;
+	line-height:10em;
+}
+
+.poster10
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/07.jpg") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+}
+
+.poster11
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/09.png") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+}
+
+
+.poster12
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/08.webp") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+}
+
+/******composite_picture2_images*************/
+.poster13
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/09.png") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+}
+.poster14
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/composite_picture_images/08.webp") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+}
+
+/******car_images*************/
+.poster15
+{
+  padding: 0px;
+  margin: 0px;
+  background: url('../images/2d_car_images/01.png') no-repeat;
+  background-position:center;
+  background-size:contain;
+  line-height:25em;
+}
+
+.poster16
+{
+  padding: 0px;
+  margin: 0px;
+  background: url('../images/2d_car_images/02.png') no-repeat;
+  background-position:center;
+  background-size:contain;
+  line-height:25em;
+}
+
+.poster17
+{
+  padding: 0px;
+  margin: 0px;
+  background: url('../images/2d_car_images/03.png') no-repeat;
+  background-position:center;
+  background-size:contain;
+  line-height:25em;
+}
+
+.poster18
+{
+  padding: 0px;
+  margin: 0px;
+  background: url('../images/2d_car_images/05.png') no-repeat;
+  background-position:center;
+  background-size:contain;
+  line-height:25em;
+}
+/******i_logo_images*************/
+.poster19
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/i_logo_images/01.jpg") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:40em;
+}
+
+.poster20
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/i_logo_images/02.jpg") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:40em;
+
+}
+
+.poster21
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/i_logo_images/04.jpg") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:20em;
+}
+
+.poster22
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/i_logo_images/05.jpg") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:20em;
+}
+
+.poster23
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/i_logo_images/06.jpg") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:20em;
+}
+
+
+.poster24
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/i_logo_images/03.jpg") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:30em;
+}
+/*******************/
+
+.poster25
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/yoi_images/04.png") no-repeat;
+	background-position:top;
+	background-size:cover;
+	padding-bottom: 300em;
+}
+
+.poster26
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/yoi_images/05.jpg") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+	width: 100%;
+	margin-top: 2em;
+}
+
+.poster27
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/yoi_images/06.jpg") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:40em;
+	margin-top: 2em;
+}
+/*******************/
+
+
+.poster28
+{
+ 
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/weather_icons_images/01.jpg") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:40em;
+ 
+}
+/*******************/
+
+.poster29
+{
+ 
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/projects_images/18.gif") no-repeat center center;
+	background-attachment: scroll;
+	background-size:cover;
+	line-height:40em;
+	margin-top: 2em;
+ 
+}
+/*******************/
+.poster30
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/projects_images/25.jpg") no-repeat center center;
+	background-attachment: scroll;
+	background-size:contain;
+	background-color:#3B3B3B;
+	line-height:50em;
+}
+/*******************/
+.poster31
+{
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/projects_images/26.jpg") no-repeat center center;
+	background-attachment: scroll;
+	background-size:contain;
+	background-color: #3E3E4A;
+	line-height:50em;
+}
+/*******************/
+.poster32
+{
+ 
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/intertwined_fate_images/01.png") no-repeat;
+	background-position:top;
+	background-size:cover;
+	line-height:35em;
+	margin-top: 3em;
+ 
+}
+
+.poster33
+{
+ 
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/intertwined_fate_images/03.png") no-repeat;
+	background-position:top;
+	background-size:cover;
+	line-height:35em;
+	margin-top: 3em;
+ 
+}
+.poster34
+{
+ 
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/intertwined_fate_images/02.png") no-repeat;
+	background-position:center;
+	background-size:cover;
+	line-height:50em;
+	margin-top: 2em;
+ 
+}
+
+
+
+
+
+@media only screen and (max-width:1024px) 
+{
+	
+	#sketche_title{padding: 0px}
+	.sketche{background-position:center;}
+	.poster1{background-position:center; background-size: contain;}
+	.poster2{background-position:center; background-size: contain;}
+	.poster3{background-position:center; background-size: contain;}
+	.poster4{background-position:center; background-size: contain;}
+	.poster5{background-position:center; background-size: contain;}
+	.poster6{background-position:center; background-size: contain;}
+	.poster12{margin-top: 3em;}
+	.poster30{line-height: 30em;}
+	.poster31{line-height: 30em;}
+	
+
+}
