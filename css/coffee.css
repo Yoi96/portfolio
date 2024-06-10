@@ -29,18 +29,10 @@ img
 }
 
 
-#coffe_footer
+#footer
 {
-    bottom: 0px;
-    width:100%;
-    height: auto;
-    text-align: center;
-    font-family: 'Helvetica';
-    src:url("fonts/Helvetica-Bold.ttf");
-    text-transform: capitalize; 
-    font-size: 1em;
-    margin: 0px auto;
-    color:black;
-    line-height:4em;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 3em;
 }
-

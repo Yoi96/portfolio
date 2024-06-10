@@ -49,12 +49,12 @@ a:hover
 {
     text-decoration: underline;
     text-decoration-thickness:20%;
-    color: yellow;
+    color: black;
 }
 
 span a
 {
-    color: yellow;
+    color: black;
     text-decoration: underline;
     text-decoration-thickness:20%;
 
@@ -316,6 +316,7 @@ Text_bold_blue_italic
     height: auto;
     padding: 0px;
     margin: 0px;
+    margin-top: 3em;
    
     
 }
@@ -381,6 +382,7 @@ Text_bold_blue_italic
     grid-area: "cover_design_right";
 }
 
+/*
 #cover_design_left
 {
     width: 100%;
@@ -389,15 +391,33 @@ Text_bold_blue_italic
     background-size:contain;
     line-height: 10em;
   
-}
+}*/
 
 #cover_design_right
 {
     width: 100%;
     height: auto;
-    background: url('../images/struggle_images/98796465465.jpg') no-repeat center center;
+    background: url('../images/struggle_images/98796465465.jpg')  no-repeat center center;
     background-size:contain;
     line-height:30em;
+}
+
+#column
+{
+    padding: 0px;
+    margin: 0px;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+.column
+{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:2em;
+    grid-gap: 2em;
+    
 }
 
 
@@ -514,7 +534,7 @@ hr{
     {
         display: grid;
         grid-template-columns:1fr;
-        grid-template-areas: 'struggle_left' 'struggle_right';
+        grid-template-areas:  'struggle_right' 'struggle_left';
         grid-row-gap: 1em;
     }
     .struggle_right
@@ -525,6 +545,17 @@ hr{
     {
         line-height: 30em;
     }
+
+    img{margin: auto;}
+
+    #cover_design_right
+    {
+        line-height: 10em;
+    }
+ 
+
+
+
 
 
 
