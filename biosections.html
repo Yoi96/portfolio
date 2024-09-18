@@ -4,30 +4,69 @@
 	<meta charset="utf-8">
 	<title>BIO SECTIONS</title>
 	<link rel="shortcut icon" href="images/home_images/logo_black.png" type="image/x-icon">
+
+	
+	<link href="css/navs.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="css/biostyle.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		.web_designs a
+		{
+		  color: orange;
+		  text-decoration: underline;
+		  text-decoration-thickness:0.2em;
+		}
+		.nav{font-family: 'Helvetica';}
 
+ 
+		.dropbtn{background: black; font-size:3em;}
 
+		li
+		{
+			line-height:5em;
+		}
+
+		.dropdown-content 
+		{
+			font-size:0.6em;
+			font-family: 'Helvetica';
+		}
+
+	</style>
 </head>
 
 <body>
-
-<div id="wrap">
+<div id="wrap"> <!--wrap start-->
 	<div id="main_body"><!--main_body start-->
 
 		<div id="header" class="header">
 
 			<div id="navs" class="navs">
-				  <a href="index.html"><div id="logo" class="logo"> &nbsp; </div></a>
+				 <a href="index.html"><div id="logo" class="logo"> &nbsp; </div></a>
 				<div  class="nav"><a href="index.html">HOME</a></div>
-				<div class="nav"><a href="projects.html" target="blank">PROJECTS</a></div> 
-				<div class="nav" id="home"><a href="contact_me.html" target="blank">CONTACT&nbsp;ME</a></div> 		
+				<div class="nav">
+					<div class="dropdown" >
+			        <button class="dropbtn">PROJECTS</button>
+			        	<div class="dropdown-content">
+			            	<ul><li class="graphic_design"><a href="graphic_designs.html">Graphic Design</a></li>
+			            	<li class="web_designs"><a href="web_designs.html">Web Designs</a></li>
+			            	<li class="game_designs"><a href="game_designs.html">Game Designs</a></li>
+			            	<li class="3d_model_designs"><a href="3d_model_designs.html">3D Model Designs</a></li>
+			            	<li class="cad_blueprints"><a href="cad_blueprints.html">CAD Blueprints</a></li>
+			            	<li class="video_editiing"><a href="video_editiing.html">Video/Animation Editing</a></li>
+			        	</ul>
+			        	</div>
+			    	</div>
+				</div> 
+				<div class="nav" ><a href="contact_me.html" target="_blank">CONTACT&nbsp;ME</a></div> 		
 			</div><!--navs end-->
 
 
 		</div><!--header end-->
 </div>
 </div>
- 
+
+<div id="next-part">
 
 <div id="section">
 	<div id="section1">
@@ -211,5 +250,6 @@
 	
 </div>
 <script type="text/javascript" src="js/footer.js"></script>
+</div>
 </body>
 </html>
