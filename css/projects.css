@@ -10,6 +10,14 @@ body{background: #37282F;}
 	margin-top: 3em;
 }
 
+#navs button 
+{
+	color: orange;
+	text-decoration: underline;
+  	text-decoration-thickness:0.2em;
+}
+
+
  
 #designs
 {
