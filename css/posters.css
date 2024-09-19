@@ -371,6 +371,20 @@
  
 }
 
+.poster35
+{
+ 
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/coding_images/attendance.png") no-repeat;
+	background-position:center;
+	background-size:contain;
+	line-height:50em;
+	margin-top: 2em;
+ 
+}
+
+
 
 
 

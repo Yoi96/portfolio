@@ -36,6 +36,10 @@
 	text-decoration-thickness:0.2em;
 }
 
+#header5 a:hover {color: orange;}
+#header5 a {color: white;}
+#home3 a:hover {color: white;}
+#home3 a {color:orange;}
 
 /******navs*************/
 
