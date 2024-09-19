@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to my Portfolio</title>
+	<link rel="shortcut icon" href="images/home_images/logo_black.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/name_submission.css">
+	<link rel="stylesheet" type="text/css" href="css/describe_projects.css">
+	<link rel="stylesheet" type="text/css" href="css/posters.css">
+
+
+	
+	
+</head>
+<body>
+<div id="wrap"> <!--wrap start-->
+	<div id="main_body"><!--main_body start-->
+
+		<div id="header" class="header">
+			<div id="navs" class="navs">
+				 <a href="index.html"><div id="logo" class="logo"> &nbsp; </div></a>
+				<div  class="nav"><a href="index.html">HOME</a></div>
+				<div class="nav" id="home"><a href="projects.html" target="blank">PROJECTS</a></div> 
+				<div class="nav" ><a href="contact_me.html" target="blank">CONTACT&nbsp;ME</a></div> 		
+			</div><!--navs end-->
+		</div><!--header end-->
+	
+
+ 
+         <div id="wrap_body">
+             <div id="fullname">
+                 <div id="logos">&nbsp;</div>
+                 <div id="title">Attendance<br>Enter Your Name</div>
+
+                 <div id="name">
+                     <label for="firstName">First Name:</label>
+                 </div>
+                 <div id="name">
+                     <input type="text" id="firstName" placeholder="Type your first name...">
+                 </div>
+
+                 <div id="name">
+                     <label for="lastName">Last Name:</label>
+                 </div>
+                 <div id="name">
+                     <input type="text" id="lastName" placeholder="Type your last name...">
+                 </div>
+
+                 <div id="name">
+                     <button id="submitButton">Submit Name</button>
+                 </div>
+
+                 <div id="title2">Your name is:</div>
+                 <span>(You can click the button to submit before checking that your name is correct)</span>
+                 <div id="displayName">&nbsp;</div>
+             </div>
+
+             <div id="fullname2">
+                 <div id="title3">Submitted Names:</div>
+                 <ul id="submittedNamesList"></ul>
+                 <button id="saveButton">Save Submitted Names as Text File</button>
+                 <button id="emailButton"><a href="mailto:xiaoyiliu96xyl@gmail.com">Save Submitted Names as Email</a>
+                 </button>
+             </div>
+         </div>
+     </div>
+ </div>
+
+    <script type="text/javascript" src="js/file-saver.js"></script>
+
+
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+</html>
